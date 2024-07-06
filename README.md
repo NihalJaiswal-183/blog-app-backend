@@ -30,27 +30,3 @@ Node.js and npm installed on your machine
 MongoDB database instance
 Google Firebase account (for authentication)
 Cloudinary account (for image storage)
-Installation
-Clone the repository:
-
-
-git clone https://github.com/yourusername/blog-application.git
-cd blog-application
-Install dependencies:
-
-
-npm install
-Set up environment variables:
-
-Create a .env file in the root directory.
-Add your MongoDB connection URI, Google Firebase configuration, and Cloudinary credentials:
-plaintext
-Copy code
-MONGODB_URI=your_mongodb_uri
-FIREBASE_CONFIG=your_firebase_config
-CLOUDINARY_URL=your_cloudinary_url
-Start the server:
-
-
-npm start
-Open your browser and navigate to http://localhost:3000 to view the application
